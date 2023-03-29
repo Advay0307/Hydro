@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial
+}
+
+nav{
+    width: 100%;
+    background: #262626;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ffe3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container img{
+    width: 75%;
+}
+
+.container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.quotes{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    color:#060606;
+    font-size: 20px;
+    font-weight:3px;
+}
+
+#section1a{
+    height: 700px;
+    background: red;
+    display: inline-block;
+    width: 100%;
+    }
+
+#section1b{
+    height: 75px;
+    background: red;
+    display: inline-block;
+    width: 100%;
+}
+
+#section2{
+    height: 700px;
+    background: orange;
+    display: inline-block;
+    width: 100%;
+}
+
+#section3{
+    height: 700px;
+    background: yellow;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4{
+    height: 700px;
+    background: yellowgreen;
+    display: inline-block;
+    width: 100%;
+}
+
+#section5{
+    height: 700px;
+    background: lightblue;
+    display: inline-block;
+    width: 100%;
+}
+
+#section6{
+    height: 700px;
+    background: violet;
+    display: inline-block;
+    width: 100%;
+}
+
+#section7{
+    height: 700px;
+    background: peru;
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+p{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+
